@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.35
+pydantic==2.9.2
+python-dotenv==1.0.1
+langchain==0.3.27
+# >=0.3.28 required: gpt-5-search-api (the blog-title model, see app.config)
+# rejects the `temperature` and `n` parameters that older versions always send.
+langchain-openai==0.3.35
+langchain-anthropic==0.3.15
+psycopg2-binary==2.9.9
+alembic==1.13.3
+pinecone==7.3.0
+python-docx==1.2.0
+python-multipart==0.0.20
+requests==2.32.3
+Pillow==12.3.0
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pytesseract==0.3.13

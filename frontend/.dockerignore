@@ -1,0 +1,5 @@
+node_modules/
+.next/
+.env*
+!.env.example
+Design reorganization for client content management-handoff/
